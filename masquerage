@@ -1,11 +1,36 @@
-var multiConfig = {"THISROOM":"masquerade","locationColor":"red","locationBackground":"green","currentView":"","viewList":["masquerade","ballroom","venice"],"defaultView":"masquerade"}
-
-var roomstuff = {"rooms":{
-
-"masquerade":{"rName":"Masquerade","backgroundImage": "https://soi-atime.hyperchat.com/masqueradeback.png","chatleft":"","underchat":"","roomtop":"<style>body {color: #c2f1ff;}</style><center><img class='topImage' src='https://soi-atime.hyperchat.com/artworks-Sm0HKCsAYbXfCBZt-00gLoQ-t500x500.jpg'><br>Welcome The Masquerade<br></center>","roombottom":""},
-
-"ballroom":{"rName":"Ballroom","backgroundImage":"https://soi-atime.hyperchat.com/ballroomback.png","chatleft":"","underchat":"","roomtop":"<style>body {color: #c8b4b0;}</style><center><img class='topImage' src='https://soi-atime.hyperchat.com/ballroomtop.jpg'><br>The Ballroom<br></center>","roombottom":""},
-
-"venice":{"rName":"Venice","backgroundImage":"https://soi-atime.hyperchat.com/venicebackuse.jpg","chatleft":"","underchat":"","roomtop":"<style>body {color: #9a7c4f;}</style><center><img class='topImage' src='https://soi-atime.hyperchat.com/venicetop.jpg'><br>Welcome to Venice<br></center>","roombottom":""},
-
-}
+var multiConfig = {
+    "THISROOM": "masquerade",
+    "locationColor": "red",
+    "locationBackground": "green",
+    "currentView": "",
+    "viewList": ["masquerade", "ballroom", "venice"],
+    "defaultView": "masquerade"
+};
+var roomstuff = {
+    "rooms": {
+        "masquerade": {
+            "rName": "Masquerade",
+            "backgroundImage": "https://soi-atime.hyperchat.com/masqueradeback.png",
+            "chatleft": "",
+            "underchat": "",
+            "roomtop": "<style>body {color: #c2f1ff;}</style><center><img class='topImage' src='https://soi-atime.hyperchat.com/artworks-Sm0HKCsAYbXfCBZt-00gLoQ-t500x500.jpg'><br>Welcome The Masquerade<br></center>",
+            "roombottom": ""
+        },
+        "ballroom": {
+            "rName": "Ballroom",
+            "backgroundImage": "https://soi-atime.hyperchat.com/ballroomback.png",
+            "chatleft": "",
+            "underchat": "",
+            "roomtop": "<style>body {color: #c8b4b0;}</style><center><img class='topImage' src='https://soi-atime.hyperchat.com/ballroomtop.jpg'><br>The Ballroom<br></center>",
+            "roombottom": ""
+        },
+        "venice": {
+            "rName": "Venice",
+            "backgroundImage": "https://soi-atime.hyperchat.com/venicebackuse.jpg",
+            "chatleft": "",
+            "underchat": "",
+            "roomtop": "<style>body {color: #9a7c4f;}</style><center><img class='topImage' src='https://soi-atime.hyperchat.com/venicetop.jpg'><br>Welcome to Venice<br></center>",
+            "roombottom": ""
+        }
+    }
+};
